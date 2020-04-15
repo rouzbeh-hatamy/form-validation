@@ -1,0 +1,84 @@
+body{
+    background-color: #212121;
+    color: #adadad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "lato";
+}
+.cointaner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+@font-face{
+    font-family: "lato";
+    src: url(./Lato-Light.ttf);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    height: 20vh;
+}
+.form div{
+    display: flex;
+    border-bottom: dotted 1px;
+}
+
+#submit{
+    width: 100%;
+    border-radius: 15px;
+    background-color: gray !important;
+    outline: none;
+    height: 5vh;
+    color: white;
+    border-style: none;
+}
+input{
+    width: 60%;
+    background-color: unset;
+    outline: unset;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+    display: flex;
+    width: 30%;
+}
+.phoneNumber label{
+    width: 40%;
+}
+.input{
+    border-right: dotted 1px;
+    padding: 12px;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.submit{
+    border: none !important;
+}
+.show{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+
+    justify-content:space-between ;
+}
+#userNamePm ,#emailPm ,#phoneNumberPM{
+    font-size: 3vh;
+    font-weight: bolder;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

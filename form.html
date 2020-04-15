@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form validate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="submitbtn()">
+    <div class="cointaner">
+        <div class="input">
+               <div class="form">
+                <div ><label for="userName">user name:</label>
+                    <input type="text" name="userName" id="userName" maxlength="20" autocomplete="off"></div>
+                <div><label for="email">email:</label>
+                    <input type="email" name="email" id="email"  maxlength="30" autocomplete="off"></div>
+                <div class="phoneNumber"><label for="phoneNumber">phone Number:</label>
+                    <input type="number" name="phoneNumber" id="phoneNumber"  autocomplete="off"></div>
+                <div class="submit"><button id="submit" onclick="submitbtn()">submit</button></div>
+               </div>
+        </div>
+        <div class="show">
+            <div id="userNamePm"></div>
+            <div id="emailPm"></div>
+            <div id="phoneNumberPM"></div>
+        </div>
+    </div>
+    <script src="./scripts.js" async defer></script>
+</body>
+
+</html>
